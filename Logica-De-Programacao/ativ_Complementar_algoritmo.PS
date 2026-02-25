@@ -1,0 +1,41 @@
+programa
+{
+	funcao inicio()
+	{
+		// Declaração das variáveis
+		real numero1
+		real numero2
+		real soma
+		real subtracao
+		real multiplicacao
+		real divisao
+
+		// Entrada de dados
+		escreva("Olá, informe o primeiro número: ")
+		leia(numero1)
+
+		escreva("Digite o segundo número: ")
+		leia(numero2)
+
+		// Processamento dos cálculos
+		soma = numero1 + numero2
+		escreva("A soma é: ", soma, "\n")
+
+		subtracao = numero1 - numero2
+		escreva("A subtração é: ", subtracao, "\n")
+
+		multiplicacao = numero1 * numero2
+		escreva("A multiplicação é: ", multiplicacao, "\n")
+
+		// Estrutura condicional para a divisão
+		se (numero2 == 0)
+		{
+			escreva("Não é possível dividir por 0 (zero)!")
+		}
+		senao
+		{
+			divisao = numero1 / numero2
+			escreva("A divisão é: ", divisao, "\n")
+		}
+	}
+}
