@@ -1,0 +1,27 @@
+/*importação de uma fonte externa do google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap')
+
+/*regra geral para todos os parágrafos do documento*/
+/*'font-family' define o tipo de letra (fonte) */
+/*'sans-serif é uma familia de fontes genérica usada caso a 'Open Sans' não estiver disponível*/
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*
+regra para o primeiro parágrafo
+- o seletor p:'first-of-type' significa: "escolha o primeiro parágrafo <p> dentro do documento."
+- a propriedade 'color' muda a cor do texto
+*/
+p:first-of-type {
+    color: red; /*vermelho*/
+}
+
+/*
+regra para o último parágrafo
+-torna o texto em negrito
+- os outros parágrafos não são afetados
+*/
+p:last-of-type {
+    font-weight: bold;
+}

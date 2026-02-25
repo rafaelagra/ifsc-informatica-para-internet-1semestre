@@ -1,0 +1,35 @@
+/*define uma fonte personalizada para toda a página*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*centraliza o título da página*/
+h1 {
+    text-align: center;
+}
+
+/*estiliza a tabela*/
+table {
+    width: 80%; /*define a largura da tabela*/
+    height: auto; /*altura automática*/
+    margin: 0 auto; /*centraliza a tabela horizontalmente*/
+    border-collapse: collapse; /*remove espaços entre bordas*/
+    background-color: #f0f8ff; /*cor de fundo da tabela*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /*sombra direita e inferior*/
+}
+
+/*estiliza cabeçalhos da tabela*/
+th {
+    background-color: #4682b4; /*cor de fundo diferente para cabeçalhos*/
+    color: white; /*cor do texto*/
+    padding: 10px; /*espaçamento interno*/
+    border: 1px solid #000; /*borda ao redor das células*/
+    text-align: center; /*centraliza o texto*/
+}
+
+/*estiliza células de dados*/
+td {
+    padding: 10px;
+    border: 1px solid #000;
+    text-align: center; /*centraliza*/
+}

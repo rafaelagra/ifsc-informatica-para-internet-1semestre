@@ -1,0 +1,67 @@
+<!DOCTYPE html> <!--Declara que o documento usa html5-->
+<html lang="pt-BR"> <!--define o idioma principal da página-->
+<head> <!--cabeçalho do documento: metadados e configurações-->
+    <meta charset="UTF-8"> <!--define o conjunto de caracteres-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--responsividade-->
+    <title>Cadastro de Produto</title> <!--título que aparece na aba do navegador-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body> <!--corpo visível da página-->
+    <h1>Cadastro de Produto</h1> <!--cabeçalho principal na tela-->
+    <form action="#" method="post"> <!--início do formulário-->
+        <label for="lote">Lote do produto:</label>
+        <input type="text" id="lote" name="lote" required><br><br>
+
+        <label for="quantidade">Quantidade em estoque:</label>
+        <input type="number" id="quantidade" name="quantidade" required><br><br>
+
+        <label for="preco">Preço de venda (R$):</label>
+        <input type="number" id="preco" name="preco" step="0.01" required><br><br>
+
+        <label for="validade">Data de Validade:</label>
+        <input type="date" id="validade" name="validade" required><br><br>
+
+        <span>Classificação do produto:</span><br>
+        <input type="radio" id="perecivel" name="classificação" value="perecivel" required>
+        <label for="perecivel">Perecível</label><br>
+        <input type="radio" id="nao-perecivel" name="classificacao" value="nao-perecivel">
+        <label for="nao-perecivel">Não perecível</label><br><br>
+
+        <label for="descricao">Descrição detalhada:</label><br>
+        <textarea id="descricao" name="descricao" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="reset" value="limpar"> <!--botão que limpa todos os campos-->
+
+        <input type="submit" value="Enviar"> <!--Botão de envio-->
+    </form>
+
+    <hr> <!--linha horizontal apenas para separar visualmente as seções-->
+    <table border="1" cellpadding="8" cellspacing="0"> <!--início da tabela; espaçamento interno e sem espaços entre células-->
+        <caption>Desenvolvimento web I - Notas dos alunos</caption> <!--legenda/ título da tabela-->
+        <thead> <!--cabeçalho da tabela-->
+            <tr> <!--linha de cabeçalho-->
+                <th>Matrículas</th> <!--título da primeira coluna-->
+                <th>Nome</th> <!--título da segunda coluna-->
+                <th>Média Final</th> <!--título da terceira coluna-->
+            </tr>
+        </thead>
+        <tbody> <!--Corpo da tabela-->
+            <tr>
+                <td>2025001</td>
+                <td>Ana costa</td>
+                <td>8.7</td>
+            </tr>
+            <tr>
+                <td>2025002</td>
+                <td>Bruno silva</td>
+                <td>7.9</td>
+            </tr>
+            <tr>
+                <td>2025003</td>
+                <td>Camila rocha</td>
+                <td>9.3</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

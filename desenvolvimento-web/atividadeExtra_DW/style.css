@@ -1,0 +1,97 @@
+/* ====== ESTILO GERAL ====== */
+body {
+    font-family: Arial, sans-serif; /* fonte simples e legível*/
+    background-color: #f9f9f9; /*fundo suave*/
+    margin: 40px; /*espaço nas bordas*/
+    color: #333 /*texto cinza escuro*/
+}
+h1 {
+    text-align: center; /*centraliza o título*/
+    color: #222;
+    margin-bottom: 30px;
+}
+/* ====== FORMULÁRIO ====== */
+form {
+    background-color: #fff; /*fundo branco*/
+    border: 1px solid #ccc; /*borda leve*/
+    padding: 20px; /*espaçamento interno*/
+    width: 400px; /*largura fixa*/
+    margin: 0 auto 40px; /*centraliza e dá espaço abaixo*/
+    border-radius: 8px; /*cantos arredondados*/
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* sombra leve */
+}
+label, span {
+    font-weight: bold;
+}
+input, textarea {
+    width: 100%; /* ocupa toda a largura do formulario*/
+    margin-bottom: 10px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="radio"]{
+    width: auto; /* corrige o tamnho dos botões de rádio */
+}
+input[type="submit"],
+input[type="reset"] {
+    width: 48%;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="reset"] {
+    background-color: #6c757d; /* botão limpar em cinza*/
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+input[type="reset"]:hover {
+    background-color: #555;
+}
+/* ======= TABELA MELHORADA ======= */
+ table {
+  width: 80%;
+   margin: 40px auto;
+   border-collapse: collapse;
+   background-color: #ffffff;
+   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+   border-radius: 8px;
+   overflow: hidden; /* mantém cantos arredondados */
+ }
+
+ caption {
+   caption-side: top;
+   font-weight: bold;
+   font-size: 1.2em;
+   background-color: #007BFF;
+   color: white;
+  padding: 12px;
+ }
+
+ thead {
+   background-color: #f0f4ff;
+   border-bottom: 2px solid #007BFF;
+ }
+
+ th, td {
+   padding: 12px 16px;
+   text-align: center;
+   border-bottom: 1px solid #ddd;
+ }
+
+ tr:nth-child(even) {
+   background-color: #f9f9f9; /* zebra stripes */
+ }
+
+ tr:hover {
+   background-color: #eef5ff; /* destaque ao passar o mouse */
+ }
+
+ th {
+   font-weight: bold;
+   color: #333;
+ }
