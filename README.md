@@ -65,4 +65,4 @@ Rafael Agra
 Curso Técnico em Informática para Internet  
 IFSC
 
-GitHub: https://github.com/rafaelagra
+Linkedin: https://www.linkedin.com/in/rafael-agra-201005355/
